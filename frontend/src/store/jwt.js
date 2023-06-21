@@ -1,5 +1,3 @@
-// frontend/src/store/jwt.js
-
 async function jwtFetch(url, options = {}) {
   // Set options.method to 'GET' if there is no method.
   options.method = options.method || "GET";
